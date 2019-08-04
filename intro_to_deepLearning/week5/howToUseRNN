@@ -1,0 +1,43 @@
+## Consider RNNs for five different types of tasks:
+
+* Element-wise sequence classification
+* Unconditional sequence generation
+* Sequence classification
+* Conditional sequence generation
+* Sequence translation
+
+## Which of these RNNs is the most suitable one to solve the task of music generation from scratch?
+
+* Element-wise sequence classification
+* **Unconditional sequence generation**
+* Sequence classification
+* Conditional sequence generation
+* Sequence translation
+
+## Consider 5 different RNNs from the previous question. Which of these RNNs is the most suitable one to solve the task of music generation from notes?
+
+* Element-wise sequence classification 
+* Unconditional sequence generation
+* Sequence classification  
+* Conditional sequence generation
+* **Sequence translation**
+
+## Consider 5 different RNNs from the first question. We want to generate music from scratch and additionally, each generated sample should be from a specific instrument. Which of these RNNs is the most suitable one to solve this task?
+
+
+
+* Element-wise sequence classification
+* Unconditional sequence generation
+* Sequence classification
+* ** Conditional sequence generation**
+
+## Choose correct statements about image captioning architecture from the lecture:
+
+* **It is possible to train this model end-to-end without pretraining.It is possible if we have a big enough dataset of images with captions. But in practice, the CNN part is usually pretrained on a big dataset of images without captions. The reasons are: Datasets of images without captions are much bigger and we need a lot of images to train a sophisticated CNN. Separate training of the CNN is much faster.**
+*This is a sequence-to-sequence architecture (sequence translation (5) from the first question).
+* **Any CNN may be used to represent an image with a feature vector.**
+* There is no benefit in pre-training of any part of this model.
+
+* Suppose Nick has a trained sequence-to-sequence machine translation model. He wants to generate the translation for a new sentence in the way that this translation has the highest probability in the model. To do this at each time step of the decoder he chooses the most probable next word instead of the generating from the distribution. Does this 
+* Yes
+* **No**
